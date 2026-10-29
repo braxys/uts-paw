@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "nama": "Monstrea",
+    "judul": "Monstrea",
     "kategori": "Daun Hias",
     "namaLatin": "Monstrea deliciosa",
     "frekuensiSiram": "1x seminggu",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "nama": "Lidah Mertua",
+    "judul": "Lidah Mertua",
     "kategori": "Daun Hias",
     "namaLatin": "Dracaena trifasciata",
     "frekuensiSiram": "1x setiap 1-2 minggu",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "nama": "Sirih Gading",
+    "judul": "Sirih Gading",
     "kategori": "Merambat",
     "namaLatin": "Epipremnum aureum",
     "frekuensiSiram": "1x seminggu",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "nama": "Peace Lily",
+    "judul": "Peace Lily",
     "kategori": "Bunga",
     "namaLatin": "Spathiphyllum wallisii",
     "frekuensiSiram": "1-2x seminggu",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "nama": "Aglaonema",
+    "judul": "Aglaonema",
     "kategori": "Daun Hias",
     "namaLatin": "Aglaonema commutatum",
     "frekuensiSiram": "1x seminggu",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "nama": "Melati",
+    "judul": "Melati",
     "kategori": "Bunga",
     "namaLatin": "Jasminum sambac",
     "frekuensiSiram": "2-3x seminggu",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "nama": "Philodendron Heartleaf",
+    "judul": "Philodendron Heartleaf",
     "kategori": "Merambat",
     "namaLatin": "Philodendron hederaceum",
     "frekuensiSiram": "1x seminggu",
@@ -57,7 +57,7 @@
   },
   {
     "id": "8",
-    "nama": "Karet Kebo",
+    "judul": "Karet Kebo",
     "kategori": "Daun Hias",
     "namaLatin": "Ficus elastica",
     "frekuensiSiram": "1x seminggu",
@@ -65,7 +65,7 @@
   },
   {
     "id": "9",
-    "nama": "Bougenville",
+    "judul": "Bougenville",
     "kategori": "Bunga",
     "namaLatin": "Bougainvillea spectabilis",
     "frekuensiSiram": "2-3x seminggu",
@@ -73,7 +73,7 @@
   },
   {
     "id": "10",
-    "nama": "English Ivy",
+    "judul": "English Ivy",
     "kategori": "merambat",
     "namaLatin": "Hedera helix",
     "frekuensiSiram": "1-2x seminggu",
