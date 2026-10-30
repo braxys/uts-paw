@@ -5,7 +5,7 @@
     "kategori": "Daun Hias",
     "namaLatin": "Monstrea deliciosa",
     "frekuensiSiram": "1x seminggu",
-    "kebutuhanCahaya": "Cahaya terang tidak langsung"
+    "kebutuhanCahaya": "Tinggi"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "kategori": "Daun Hias",
     "namaLatin": "Dracaena trifasciata",
     "frekuensiSiram": "1x setiap 1-2 minggu",
-    "kebutuhanCahaya": "Cahaya rendah hingga terang tidak langsung"
+    "kebutuhanCahaya": "Rendah"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "kategori": "Merambat",
     "namaLatin": "Epipremnum aureum",
     "frekuensiSiram": "1x seminggu",
-    "kebutuhanCahaya": "Cahaya sedang hingga terang tidak langsung"
+    "kebutuhanCahaya": "Sedang"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "kategori": "Bunga",
     "namaLatin": "Spathiphyllum wallisii",
     "frekuensiSiram": "1-2x seminggu",
-    "kebutuhanCahaya": "Cahaya sedang tidak langsung"
+    "kebutuhanCahaya": "Sedang"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "kategori": "Daun Hias",
     "namaLatin": "Aglaonema commutatum",
     "frekuensiSiram": "1x seminggu",
-    "kebutuhanCahaya": "Cahaya rendah hingga sedang tidak langsung"
+    "kebutuhanCahaya": "Rendah"
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
     "kategori": "Bunga",
     "namaLatin": "Jasminum sambac",
     "frekuensiSiram": "2-3x seminggu",
-    "kebutuhanCahaya": "Cahaya terang hingga sinar matahari langsung"
+    "kebutuhanCahaya": "Tinggi"
   },
   {
     "id": "7",
@@ -53,7 +53,7 @@
     "kategori": "Merambat",
     "namaLatin": "Philodendron hederaceum",
     "frekuensiSiram": "1x seminggu",
-    "kebutuhanCahaya": "Cahaya sedang hingga terang tidak langsung"
+    "kebutuhanCahaya": "Sedang"
   },
   {
     "id": "8",
@@ -61,7 +61,7 @@
     "kategori": "Daun Hias",
     "namaLatin": "Ficus elastica",
     "frekuensiSiram": "1x seminggu",
-    "kebutuhanCahaya": "Cahaya terang tidak langsung"
+    "kebutuhanCahaya": "Tinggi"
   },
   {
     "id": "9",
@@ -69,7 +69,7 @@
     "kategori": "Bunga",
     "namaLatin": "Bougainvillea spectabilis",
     "frekuensiSiram": "2-3x seminggu",
-    "kebutuhanCahaya": "Sinar matahari langsung"
+    "kebutuhanCahaya": "Tinggi"
   },
   {
     "id": "10",
@@ -77,6 +77,6 @@
     "kategori": "Merambat",
     "namaLatin": "Hedera helix",
     "frekuensiSiram": "1-2x seminggu",
-    "kebutuhanCahaya": "Cahaya sedang hingga terang tidak langsung"
+    "kebutuhanCahaya": "Sedang"
   }
 ]
