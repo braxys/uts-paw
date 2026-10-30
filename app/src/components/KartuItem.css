@@ -1,0 +1,12 @@
+.kartu {
+    background-color: white;
+}
+
+.judul-kartu {
+    text-decoration: none;
+    color: #064e3b;
+}
+
+.judul-kartu:hover h3{
+    text-decoration: underline;
+}
