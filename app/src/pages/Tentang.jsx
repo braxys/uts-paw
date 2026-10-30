@@ -6,7 +6,7 @@ const REPO = "https://github.com/braxys/uts-paw";
 export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa;
   return (
-    <section>
+    <section id="kartu-utama">
       <h1>Tentang</h1>
       <dl>
         <dt>Nama</dt>

@@ -7,7 +7,7 @@ export default function Beranda() {
   const jumlahKategori = new Set(items.map((item) => item.kategori)).size;
 
   return (
-    <section>
+    <section id="kartu-utama">
       <h1>Daftar Koleksi Tanaman Hias</h1>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
@@ -17,7 +17,8 @@ export default function Beranda() {
           Ada {items.length} tanaman hias dalam {jumlahKategori} kategori.
         </p>
       )}
-      <Link to="/koleksi">Lihat semua tanaman hias</Link>
+      <br />
+      <Link to="/koleksi" id="button-utama">Lihat semua tanaman hias</Link>
     </section>
   );
 }

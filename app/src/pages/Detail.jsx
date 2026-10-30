@@ -25,7 +25,7 @@ export default function Detail() {
   };
 
   return (
-    <section>
+    <section id="kartu-utama">
       <h1>{item.judul}</h1>
       <dl>
         <dt>Kategori</dt>
@@ -40,10 +40,10 @@ export default function Detail() {
         <dd>{item.kebutuhanCahaya}</dd>
       </dl>
       <div className="aksi">
-        <button type="button" onClick={konfirmasiHapus}>
+        <button id="button-hapus" type="button" onClick={konfirmasiHapus}>
           Hapus
         </button>
-        <Link to="/koleksi">Kembali</Link>
+        <Link to="/koleksi" id="button-utama">Kembali</Link>
       </div>
     </section>
   );

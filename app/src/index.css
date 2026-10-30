@@ -14,3 +14,56 @@ main {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+#kartu-utama {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 30px 30px 30px;
+}
+
+#button-utama {
+  text-decoration: none;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  background-color: #064e3b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#button-utama:hover {
+  background-color: #087657;
+}
+
+#button-utama:focus {
+  background-color: #064e3b;
+}
+
+#button-hapus {
+  text-decoration: none;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #064e3b;
+  background-color: white;
+  color: #064e3b;
+  padding: 13px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#button-hapus:hover {
+  background-color: #064e3b;
+  color: white;
+}
+
+#search-bar:focus, .search-bar:focus {
+  outline: none;
+  border: 1px solid #087657;
+}
+
+#pilih-kategori:focus, .pilih-kategori:focus{
+  outline: none;
+  border: 1px solid #087657;
+}

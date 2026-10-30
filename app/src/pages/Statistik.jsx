@@ -12,7 +12,7 @@ export default function Statistik() {
   );
 
   return (
-    <section>
+    <section id="kartu-utama">
       <h1>Statistik</h1>
       <div className="tabel-gulir">
         <table className="tabel-data">

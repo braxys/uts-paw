@@ -27,6 +27,7 @@ export default function Koleksi() {
       <div className="alat-koleksi">
         <KotakPencarian nilai={cari} onUbah={setCari} />
         <select
+          id="pilih-kategori"
           aria-label="Kategori"
           value={kategori}
           onChange={(e) => setKategori(e.target.value)}

@@ -34,7 +34,14 @@ export default function Tambah() {
       <h1>Tambah Koleksi Tanaman Hias</h1>
 
       <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+      <input
+        id="judul"
+        name="judul"
+        value={form.judul}
+        onChange={ubah}
+        className="search-bar"
+        placeholder="Melati"
+      />
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
@@ -43,6 +50,7 @@ export default function Tambah() {
         name="kategori"
         value={form.kategori}
         onChange={ubah}
+        className="pilih-kategori"
       >
         <option>Daun Hias</option>
         <option>Merambat</option>
@@ -55,6 +63,8 @@ export default function Tambah() {
         name="namaLatin"
         value={form.namaLatin}
         onChange={ubah}
+        className="search-bar"
+        placeholder="Jasminum sambac"
       />
 
       <label htmlFor="frekuensiSiram">Frekuensi Siram</label>
@@ -63,6 +73,8 @@ export default function Tambah() {
         name="frekuensiSiram"
         value={form.frekuensiSiram}
         onChange={ubah}
+        className="search-bar"
+        placeholder="1x seminggu"
       />
 
       <label htmlFor="kebutuhanCahaya">Kebutuhan Cahaya</label>
@@ -71,13 +83,16 @@ export default function Tambah() {
         name="kebutuhanCahaya"
         value={form.kebutuhanCahaya}
         onChange={ubah}
+        className="pilih-kategori"
       >
         <option value="Rendah">Rendah</option>
         <option value="Sedang">Sedang</option>
         <option value="Tinggi">Tinggi</option>
       </select>
 
-      <button type="submit">Simpan</button>
+      <button type="submit" id="button-utama">
+        Simpan
+      </button>
     </form>
   );
 }
