@@ -1,14 +1,37 @@
-import { render, screen } from '@testing-library/react'
-import { MemoryRouter } from 'react-router-dom'
-import { expect, test } from 'vitest'
-import App from './App.jsx'
+import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
+import { test, expect } from "vitest";
+import App from "./App.jsx";
 
-// Contoh test. Tambahkan minimal 5 test buatan sendiri (butir rubrik F1).
-test('rute tidak dikenal menampilkan 404', () => {
+function buka(path) {
   render(
-    <MemoryRouter initialEntries={['/tidak-ada']}>
+    <MemoryRouter initialEntries={[path]}>
       <App />
     </MemoryRouter>,
-  )
-  expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument()
-})
+  );
+}
+
+test("rute tidak dikenal menampilkan 404", () => {
+  buka("/tidak-ada");
+  expect(screen.getByRole("heading", { name: "404" })).toBeInTheDocument();
+});
+
+test("halaman beranda menampilkan judul", () => {
+  buka("/");
+  expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+});
+
+test("halaman tentang menampilkan nama yang benar", () => {
+  buka("/tentang");
+  expect(screen.getByText("Bagas Hari Muthi")).toBeInTheDocument();
+});
+
+test("halaman tentang menampilkan nim yang benar", () => {
+  buka("/tentang");
+  expect(screen.getByText("124140128")).toBeInTheDocument();
+});
+
+test("halaman statistik menampilkan tabel", () => {
+  buka("/statistik");
+  expect(screen.getByRole("table")).toBeInTheDocument();
+});
